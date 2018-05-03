@@ -1,3 +1,7 @@
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .App{
   display: flex;
   flex-wrap: wrap;
@@ -19,9 +23,10 @@
 }
 
 .App .Content .One{
-  width: 45%;
-  height: 300px;
+  width: 22%;
+  height: 200px;
   background-color: khaki;
   margin-bottom: 30px;
+  text-align: center;
 }
 
