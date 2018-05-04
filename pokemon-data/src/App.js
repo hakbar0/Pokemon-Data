@@ -7,7 +7,7 @@ class App extends Component {
   state = {
     pokemon: "",
     name: "test",
-    style: "block",
+    style: "none",
     image: "https://media.giphy.com/media/52qtwCtj9OLTi/giphy.gif"
   }
 

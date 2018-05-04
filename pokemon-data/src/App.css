@@ -11,7 +11,6 @@ body{
 .App .Header{
   height: 185px;
   width: 100%;
-  background-color: lightblue;
   margin-bottom: 30px;
 }
 
@@ -32,7 +31,7 @@ body{
 
 
 .modal {
-  display: block;
+  display: none;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -48,7 +47,7 @@ body{
 /* Modal Content */
 .modal-content {
   text-align: center;
-  background-color: #fefefe;
+  background-color:	whitesmoke;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
