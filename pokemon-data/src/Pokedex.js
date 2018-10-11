@@ -15,7 +15,9 @@ class Pokedex extends Component {
 
   componentDidMount() {
     axios.get("http://pokeapi.co/api/v2/pokemon/")
-      .then(res => { this.setState({ pokemon: res.data.results }) })
+      .then(res => { 
+        let totalPokemon = 802;
+        this.setState({ pokemon: res.data.results.slice(0, totalPokemon) }) })
   }
 
   modelBox = (pokemon, image, index) => {

@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-inverse bg-inverse">
-        <NavLink exact to='/'>Pokedex</NavLink>
+        <NavLink exact to='/'>Pokedex/</NavLink>
         <NavLink to='/Game'>Game</NavLink>
       </nav>
     </div>
